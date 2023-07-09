@@ -1,6 +1,8 @@
 # Dmitry Koshkin
 
-`**intern frontend developer** :shipit:`
+![It's me!](https://ibb.co/qxd1S3w)
+
+**intern frontend developer** 
 
 ## Contact information:
 
@@ -13,9 +15,9 @@ Telegram: `@q_171`
 
 ## About Myself:
 
-Embedded systems engineer, PCB designer, circuit designer.
+Embedded systems engineer, PCB designer, circuit designer :shipit:
 
-Interested in frontend development, learning JS.
+Interested in frontend development, learning JS
 
 ## Skills and Proficiency:
 
