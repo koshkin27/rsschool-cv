@@ -1,6 +1,6 @@
 # Koshkin Dima
 
-**beginner JS-developer**  
+**JS-developer**  
 
 - Email: dimakoshk@hotmail.com
 - Location: Russia, Yekaterinburg
