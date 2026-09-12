@@ -1,8 +1,50 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+}
+
+img {
+  width: 200px;
+}
+
+section {
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-img{
+  width: 150px;
+}
+
+h2 {
+  margin-bottom: 5px;
 }
