@@ -2,32 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
     <title>cv</title>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="icon"
+      href="favicon.ico"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <div class="container">
     <header>
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#contacts" class="nav-link">Contacts</a>
+            <a
+              href="#contacts"
+              class="nav-link"
+            >Contacts</a>
           </li>
           <li class="nav-item">
-            <a href="#summary" class="nav-link">Summary</a>
+            <a
+              href="#summary"
+              class="nav-link"
+            >Summary</a>
           </li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
+            <a
+              href="#skills"
+              class="nav-link"
+            >Skills</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#code-example"
+              class="nav-link"
+            >Code example</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#experience"
+              class="nav-link"
+            >Experience</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#education"
+              class="nav-link"
+            >Education</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#english"
+              class="nav-link"
+            >English</a>
           </li>
         </ul>
       </nav>
@@ -35,7 +85,10 @@
     <main>
       <section id="profile">
         <h1>Koshkin Dmitry</h1>
-        <img src="image.jpg" alt="my photo" />
+        <img
+          src="image.jpg"
+          alt="my photo"
+        />
         <p>Beginner frontend-developer</p>
       </section>
       <section id="contacts">
@@ -55,19 +108,52 @@
       </section>
       <section id="skills">
         <h2>Skills</h2>
-        <p>HTML, CSS, and JavaScript</p>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </section>
+      <section id="code-example">
+        <h2>Code example</h2>
+        <pre><code>const hello = () => {
+  console.log("Hello, world!");
+};</code></pre>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>No experience yet</p>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <p>BSTU, 2014-2019, Computer Science and Engineering</p>
+      </section>
+      <section id="english">
+        <h2>English</h2>
+        <p>Intermediate</p>
       </section>
     </main>
     <footer>
       <div>
-        <a href="https://rs.school/ru/courses/javascript" target="_blank">
-          <img class="footer-img" src="rs-school-logo.svg" alt="RS School Logo" />
+        <a
+          href="https://rs.school/ru/courses/javascript"
+          target="_blank"
+        >
+          <img
+            class="footer-img"
+            src="rs-school-logo.svg"
+            alt="RS School Logo"
+          />
         </a>
       </div>
       <div>
         © 2026
-        <a href="https://github.com/koshkin27" target="_blank">Dmitry Koshkin</a>
+        <a
+          href="https://github.com/koshkin27"
+          target="_blank"
+        >Dmitry Koshkin</a>
       </div>
     </footer>
+    </div>
   </body>
 </html>
